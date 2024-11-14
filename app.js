@@ -3,7 +3,8 @@
 var express = require('express'); 
 var app = express(); 
 const { spawn } = require('child_process');
-  
+
+app.use(cors());
 // Creates a server which runs on port 3000 and  
 // can be accessed through localhost:3000 
 app.listen(3000, function() { 
