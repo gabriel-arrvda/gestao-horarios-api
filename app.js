@@ -3,6 +3,7 @@
 var express = require('express'); 
 var app = express(); 
 const { spawn } = require('child_process');
+const cors = require('cors');
 
 app.use(cors());
 // Creates a server which runs on port 3000 and  
